@@ -6,8 +6,9 @@ public class Medic extends Hero{
     }
 
     @Override
-    public void applySuperAbility() {
-        System.out.println("Medic применил суперспособность HILL!");
+    public void applySuperAbility (String superAbilityType) {
+        setHeroSuperAbility("Medic применил суперспособность HILL!");
+        System.out.println(getHeroSuperAbility());
     }
 
 }

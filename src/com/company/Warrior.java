@@ -6,8 +6,12 @@ public class Warrior extends Hero{
     }
 
     @Override
-    public void applySuperAbility() {
+    /*public void applySuperAbility() {
         System.out.println("Warrior применил суперспособность CRITICAL DAMAGE");
+    }*/
+    public void applySuperAbility (String superAbilityType) {
+        setHeroSuperAbility("Warrior применил суперспособность CRITICAL DAMAGE");
+        System.out.println(getHeroSuperAbility());
     }
 
 }

@@ -39,5 +39,5 @@ private int heroHealth;
       this.heroSuperAbility=heroSuperAbility;
     }
 
-    public abstract void applySuperAbility();
+
 }
